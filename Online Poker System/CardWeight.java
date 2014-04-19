@@ -1,4 +1,4 @@
-/* package whatever; // don't place package name! */
+package online.poker.system.ck;
 
 import java.util.*;
 import java.lang.*;
@@ -18,15 +18,15 @@ public enum CardWeight{
 	JACK,
 	QUEEN,
 	KING;
-	
+
 	//Weight for card value
 	private int wgt;
-	
+
 	//Constructor
 	private int CardWeight(int wgt){
 		this.wgt=wgt;
 	}
-	
+
 	/* EXTRA FUNCTIONALITY FOR TESTING */
 	public int getWeight(){
 		return wgt;
